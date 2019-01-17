@@ -1,0 +1,126 @@
+/*CLASS STYLE*/
+.chirplogo {
+    font-weight: bolder;
+    color: #000000;
+}
+.button {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    border-radius: 25px;
+    text-align: center;
+    color:  #f9fafc;
+}
+/*TAG STYLE*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #69696a;
+    background-color: #f9fafc;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    margin: 0;
+    font-size: 30px;
+    color: #000000;
+}
+p {
+    border-left: 2px solid #69696a;
+    padding-left: 10px;
+}
+a {
+    padding: 2px 0px;
+    text-decoration: none;
+    color: #69696a;
+}
+/*STYLE FOR ANYTHING BIGGER THAN A PHONE*/
+@media only screen and (min-width: 1200px) {
+/*CLASS STYLE*/
+.button {
+    width: fit-content;
+    padding: 10px 40px;
+}
+.scroll {
+    position: absolute;
+    left: 44%;
+    top: 88%;
+}
+.chirplogo {
+    width: 60%;
+}
+.navitem {
+    flex: 1;
+}
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.textandcircles {
+    display: flex;
+}
+.circlewrapper {
+    position: absolute;
+    left: 75%;
+    top: 40%;
+}
+.circle1 {
+    position: absolute;
+    height: 275px;
+    width: 275px;
+    top: -100px;
+    left: -45px;
+    border-radius: 50%;
+    background-color: rgba(247, 136, 167, 0.6);
+}
+.circle2 {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: -20px;
+    left: 188px;
+    border-radius: 50%;
+    background-color: rgba(207, 130, 213, 0.6);
+}
+.circle3 {
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    top: 90px;
+    left: 145px;
+    border-radius: 50%;
+    background-color: rgba(247, 193, 162, 0.7);
+}
+/*TAG STYLE*/
+h3 {
+    margin-top: 125px;
+    height:50%;
+}
+p {
+    height: 50%;
+    width: 50%;
+}
+a {
+    display: flex;
+    align-items: center;
+}
+body {
+    display: block;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #69696a;
+    background-color: #f9fafc;
+}
+div {
+
+}
+}
