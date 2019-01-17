@@ -61,7 +61,7 @@ a {
 }
 
 .navitem {
-    flex: 1;
+
 }
 .navitem:hover {
     color: rgba(247, 193, 162, 0.7);
